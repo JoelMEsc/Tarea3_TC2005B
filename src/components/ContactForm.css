@@ -1,0 +1,51 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.contact-form input {
+    color: #cfcdc8;
+    background-color: #f7f6f2;
+
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #d1cfc7;
+    border-radius: 0.6rem;
+
+    padding: 0.5rem;
+
+    width: 21rem;
+}
+
+.contact-form input:not(:placeholder-shown) {
+    color: #000000;
+}
+
+.contact-form select {
+    color: #757471;
+    background-color: #f7f6f2;
+
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #d1cfc7;
+    border-radius: 0.6rem;
+
+    padding: 0.5rem;
+
+    width: 21rem;
+}
+
+.contact-form button {
+    color: #ffffff;
+    background-color: #3d3bcc;
+
+    border-style: none;
+    border-radius: 0.6rem;
+
+    padding: 0.5rem;
+
+    width: 21rem;
+}

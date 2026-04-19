@@ -1,0 +1,28 @@
+.labels {
+    width: 21rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.labels button {
+    padding: 0.5rem;
+
+    color: #757471;
+    background-color: #f7f6f2;
+
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #d1cfc7;
+    border-radius: 1rem;
+}
+
+.labels button.activo {
+    padding: 0.5rem;
+
+    color: #ffffff;
+    background-color: #3d3bcc;
+
+    border-style: none;
+    border-radius: 1rem;
+}
