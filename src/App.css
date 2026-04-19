@@ -17,6 +17,8 @@
 }
 
 .app .phone-shape {
+    max-height: 100vh;
+    overflow-y: auto;
     background-color: white;
     
     border-style: solid;
